@@ -1,0 +1,30 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "Node.js Test Driven Development",
+  "main": "dist/double.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "start": "node .",
+    "start:dev": "nodemon .",
+    "test": "NODE_ENV=test jest",
+    "test:watch": "NODE_ENV=test jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsn8najafi/node-tdd.git"
+  },
+  "author": "Hosein Najafi <hsn8najafi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hsn8najafi/node-tdd/issues"
+  },
+  "homepage": "https://github.com/hsn8najafi/node-tdd#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3",
+    "ts-jest": "^27.1.4",
+    "jest": "^27.5.1",
+    "@types/jest": "^27.4.1"
+  }
+}
